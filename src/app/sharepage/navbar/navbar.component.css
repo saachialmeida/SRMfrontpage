@@ -1,0 +1,37 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    animation: fadein 2s;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+.navbar-collapse {
+    width:55%;
+    margin-left:45%;
+    animation: fadein 2s;
+}
+
+.nav-link {
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-weight: 100;
+}
+
+.nav-link:hover {
+    color: rgb(67, 60, 163);
+    text-decoration:underline;
+}
+
+.container-fluid-img {
+    margin-right: 1%;
+}
